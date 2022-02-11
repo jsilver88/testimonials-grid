@@ -1,0 +1,35 @@
+@use 'colors' as *;
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  background-color: $light-grayish-blue;
+  color: $white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+img {
+  max-width: 100%;
+}
+
+#main {
+  max-width: min(90%, 120rem);
+  margin: 0 auto;
+  padding-block: 16.4rem;
+}
